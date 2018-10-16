@@ -15,17 +15,4 @@ public class BallVel : MonoBehaviour {
         rb.velocity = new Vector3(0, 0, speed);
     }
 
-    private void Update()
-    {
-        if(restart == true)
-        {
-            print("destroyed");
-            Destroy(gameObject, 3);
-        }
-    }
-    private void OnCollisionEnter(Collision collision)
-    {
-        print(collision.transform.name);
-    }
-
 }
