@@ -23,4 +23,9 @@ public class BallVel : MonoBehaviour {
             Destroy(gameObject, 3);
         }
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        print(collision.transform.name);
+    }
+
 }
