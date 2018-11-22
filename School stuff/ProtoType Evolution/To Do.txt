@@ -1,0 +1,45 @@
+Straat beeld:
+Roads
+ - Street Roads
+   - no road
+   - dirt road
+   - stone
+   - asphalt
+   - electric
+   - underground
+ - Pedestrian crossing
+ - Traffic light old, Today ,Towmorrow
+
+Green stuff
+ - 4 tree's
+ - 2 flowerbeds
+ - 3 bushes
+
+houses
+ - 2 wooden
+ - 3 stone
+ - 4 victorian
+ - 4 modern
+ - 3 futurisic
+
+Tranport
+ - train
+   - Steam engine
+   - Diesel
+   - Electric
+ - Tram
+   - Diesel
+   - Electric
+
+ - train station 3
+ - tram station 3
+
+ - Bus stop
+ - Bus Old, Newer, New, Futuristic
+ - auto's
+   - Horse and wagon
+   - old timers
+   - 90's
+   - today
+   - Floating
+   - Underground
