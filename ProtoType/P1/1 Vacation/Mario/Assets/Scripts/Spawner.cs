@@ -5,7 +5,8 @@ using UnityEngine;
 public class Spawner : MonoBehaviour {
 
     GameObject item;
-    
+    public bool spawner;
+    Vector3 pos;
 
 	// Use this for initialization
 	void Start () {
@@ -13,9 +14,12 @@ public class Spawner : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update ()
+	void Update()
     {
-        for ()
-        Instantiate(item, new Vector3, Quaternion.identity);
+        if (spawner == true)
+        {
+            Instantiate(item, pos, Quaternion.identity);
+            spawner = false;
+        }   
 	}
 }
